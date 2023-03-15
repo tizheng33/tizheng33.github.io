@@ -1,0 +1,50 @@
+header {
+    background-color: lightblue;
+    height: 100px;
+}
+
+#logo{
+    height: 85px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+body{background-color: lightyellow;}
+
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    font-size: 40px;
+    vertical-align: bottom;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+nav {
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 220px;
+    line-height: 0px;
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    vertical-align: top;
+
+}
+
+
+
+text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
