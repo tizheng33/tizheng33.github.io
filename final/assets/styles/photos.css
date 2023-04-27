@@ -1,0 +1,125 @@
+#foods{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+body {
+    background-color: lightblue;
+}
+
+#title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.buttons button {
+  background-color: lightyellow;
+  color: black;
+  padding: 20px 24px;
+  width: 50%;
+  display: block;
+  margin-left: 25%;
+  margin-top: 25px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: larger;
+  font-family: 'Indie Flower', cursive;
+}
+
+.buttons p {
+    text-align: center;
+    padding-bottom: 30px;
+    transition: opacity 0.2s;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+button{
+    margin: 80px 12px 80px 10px;
+  }
+
+
+.top img {
+    float: left;
+    width: 100px;
+    height: 100px;
+
+  }
+
+  .top img:hover {
+    animation: bounce 1s;
+    animation-iteration-count: infinite; 
+  }
+
+.top h1 {
+    padding-bottom: 0px;
+    font-family: 'Indie Flower', cursive;
+  }
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    text-align: center;
+    animation: fade 1s;
+}
+
+.op {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes bounce {
+  0% {
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg)
+  }
+}
+
+#pic{
+  size: 20%;
+  width: 50%;
+  padding-top: 30px;
+  margin-left: 25%;
+  justify-content: 10%;
+  animation:fade 2s;
+  border-radius: 50%;
+}
+
+#pic:hover{
+  border: solid 1px transparent;
+  cursor:pointer;
+}
+
+h1{
+  font-family: 'Indie Flower', cursive;
+}
+
+h2{
+  font-family: 'Indie Flower', cursive;
+  animation:fade 3s;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Indie Flower', cursive;
+  animation:fade 3.5s;
+}
+
+@keyframes fade {
+  0% { 
+    opacity: 0; 
+  }
+  100% { 
+    opacity: 1; 
+  }
+}
+
+
